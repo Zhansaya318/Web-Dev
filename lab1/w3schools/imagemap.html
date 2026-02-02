@@ -1,0 +1,33 @@
+The HTML <map> tag defines an image map. An image map is an image with clickable areas. The areas are defined with one or more <area> tags.
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+
+The image is inserted using the <img> tag. The only difference from other images is that you must add a usemap attribute:
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+Then, add a <map> element.
+
+The <map> element is used to create an image map, and is linked to the image by using the required name attribute:
+
+<map name="workmap">
+The name attribute must have the same value as the <img>'s usemap attribute .
+
+Then, add the clickable areas.
+
+A clickable area is defined using an <area> element.
+
+Shape
+You must define the shape of the clickable area, and you can choose one of these values:
+
+rect - defines a rectangular region
+circle - defines a circular region
+poly - defines a polygonal region
+default - defines the entire region
+You must also define some coordinates to be able to place the clickable area onto the image. 
+
+<a href="https://www.w3schools.com/html/html_images_imagemap.asp">ИМЭЙДЖ МАП</a></p>
