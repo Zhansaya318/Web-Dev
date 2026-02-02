@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    background-color: #f0f2f5;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+.container {
+    flex: 1; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px; 
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.leftpart {
+    width: 470px;
+    margin-bottom: 80px;
+}
+
+.leftpart h2 {
+    color: #1877f2;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+
+.leftpart p {
+    font-size: 23px;
+    line-height: 32px;
+    font-weight: normal; 
+}
+
+
+.rightpart {
+    width: 370px;
+}
+
+.loginpage {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    height: 52px;
+    padding: 14px 16px;
+    margin-bottom: 12px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 17px;
+}
+
+#button-exit {
+    width: 100%;
+    height: 48px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+#text-forgotp {
+    color: #1877f2;
+    font-size: 14px; 
+    font-weight: 600; 
+    margin: 16px 0;
+    cursor: pointer;
+    display: block; 
+}
+
+#text-forgotp:hover {
+    text-decoration: underline;
+}
+
+#button-newacc {
+    background-color: #42b72a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0 16px;
+    height: 48px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.rightpart span {
+    display: block;
+    margin-top: 28px;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.footer {
+    background-color: white;
+    padding: 20px 0;
+    color: #737373;
+    font-size: 12px;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.languages, .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.languages span, .links span {
+    cursor: pointer;
+}
+
+.languages span:hover, .links span:hover {
+    text-decoration: underline;
+}
+
+.footer hr {
+    margin: 10px 0;
+    border: none;
+    border-top: 1px solid #dddfe2;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 11px;
+}
+
+.plus-btn {
+    padding: 0 8px;
+    background: #f5f6f7;
+    border: 1px solid #dddfe2;
+    cursor: pointer;
+}
